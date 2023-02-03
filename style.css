@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #599b9b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-container {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  width: 1120px;
+  height: 650px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+.main-container > h2 {
+  color: #941661;
+  font-size: 40px;
+  font-family: "Inter", sans-serif;
+}
+.valid {
+  font-family: "Alice", serif;
+
+  color: #599b9b;
+}
+.leapyear-heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  margin-top: 25px;
+}
+.year-input {
+  width: 500px;
+  height: 50px;
+  font-size: 35px;
+  text-align: center;
+  border: none;
+  margin-top: 35px;
+  border-radius: 5px;
+}
+.gen-button {
+  width: 250px;
+  height: 70px;
+  font-size: 30px;
+  font-family: Inter;
+  border: none;
+  color: white;
+  background: #599b9b;
+  margin-top: 25px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.result {
+  font-size: 30px;
+  font-family: Inter;
+  margin-top: 35px;
+}
