@@ -58,3 +58,9 @@ body {
   font-family: Inter;
   margin-top: 35px;
 }
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
